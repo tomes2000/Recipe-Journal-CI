@@ -84,6 +84,7 @@ def login():
     return render_template("login.html")
 
 
+#Profile function to allow user to view their profile
 @app.route("/profile/<username>", methods=["GET", "POST"])
 def profile(username):
     # grab the session user's username from db
@@ -96,6 +97,7 @@ def profile(username):
     return redirect(url_for("login"))
 
 
+#Logout function to remove user from session cookie
 @app.route("/logout")
 def logout():
     # remove user from session cookie
