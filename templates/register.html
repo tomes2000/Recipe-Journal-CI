@@ -1,4 +1,15 @@
 {% extends "base.html" %}
 {% block content %}
 
-<h2 class="center-align">Sign Up</h2>
+    <h2 class="center-align">Sign Up</h2>
+
+    <div class="row">
+        <form class="col s12 m8 offset-m2" method="POST" action="{{ url_for('register') }}">
+            <div class="card-panel">
+                <!--username-->
+                <div class="row">
+                    <div class="input-field col s12">
+                        <input id="username" name="username" type="text" minlength="3" maxlength="30" pattern="^[a-zA-Z0-9]{3,30}$" class="validate" required>
+                        <label for="username">Username</label>
+                    </div>
+                </div>
