@@ -28,6 +28,14 @@ def get_recipes():
     return render_template("recipes.html", recipes=recipes)
 
 
+#Search function to allow user to search the database
+@app.route("/search", methods=["GET", "POST"])
+def search():
+    query = request.form.get("query")
+    recipes = list(mongo.db.recipes.find({"$text": {"$search": query}}))
+    return render_template("recipes.html", recipes=recipes)
+
+
 #Register function to add user to the databse
 @app.route("/register", methods=["GET", "POST"])
 def register():
