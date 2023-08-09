@@ -104,3 +104,24 @@ def logout():
     flash("You have been logged out")
     session.pop("user")
     return redirect(url_for("login"))
+
+
+#Add recipe function to allow user to add a recipe to the database
+@app.route("/add_recipe", methods=["GET", "POST"])
+def add_recipe():
+    if request.method == "POST":
+        is_vegetarian = "on" if request.form.get("is_vegetarian") else "off"
+        recipe = {
+            "cuisine_name": request.form.get("cuisine_name"),
+            "recipe_name": request.form.get("recipe_name"),
+            "recipe_ingredients": request.form.get("recipe_ingredients"),
+            "is_vegetarian": is_vegetarian,
+            "recipe_serves": request.form.get("recipe_serves"),
+            "recipe_url": request.form.get("recipe_url"),
+            "created_by": session["user"]
+        }
+        mongo.db.recipes.insert_one(recipe)
+        flash("Recipe Successfully Added")
+        return redirect(url_for("get_recipes"))
+    cuisines = mongo.db.cuisines.find().sort("cuisine_name", 1)
+    return render_template("add_recipe.html", cuisines=cuisines)
