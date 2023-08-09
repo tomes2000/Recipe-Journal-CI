@@ -14,4 +14,18 @@
                     <label for="cuisine_name">Cuisine Name</label>
                 </div>
             </div>
+             <!-- submit button -->
+             <div class="row">
+                <div class="col s12 center-align">
+                    <a href="{{ url_for('get_cuisines') }}" class="btn-large red text-shadow">
+                        Cancel <i class="fas fa-times-circle right"></i>
+                    </a>
+                    <button type="submit" class="btn-large light-blue darken-1 text-shadow">
+                        Edit Cuisine <i class="fas fa-edit right"></i>
+                    </button>
+                </div>
+            </div>
+        </form>
+    </div>
+
 {% endblock %}
