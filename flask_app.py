@@ -193,3 +193,10 @@ def edit_cuisine(cuisine_id):
     cuisine = mongo.db.cuisines.find_one({"_id": ObjectId(cuisine_id)})
     return render_template("edit_cuisine.html", cuisine=cuisine)
 
+#delete_cuisine function to allow user to delete cuisine in the database
+@app.route("/delete_cuisine/<cuisine_id>")
+def delete_cuisine(cuisine_id):
+    mongo.db.cuisines.delete_one({"_id": ObjectId(cuisine_id)})
+    flash("Cuisine Successfully Deleted")
+    return redirect(url_for("get_cuisines"))
+
