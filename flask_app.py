@@ -147,3 +147,12 @@ def edit_recipe(recipe_id):
     recipe = mongo.db.recipes.find_one({"_id": ObjectId(recipe_id)})
     cuisines = mongo.db.cuisines.find().sort("cuisine_name", 1)
     return render_template("edit_recipe.html", recipe=recipe, cuisines=cuisines)
+
+
+#Delete recipe function to allow user to delete a recipe from the database
+@app.route("/delete_recipe/<recipe_id>")
+def delete_recipe(recipe_id):
+    # .remove() is deprecated, use .delete_one() instead
+    mongo.db.recipes.delete_one({"_id": ObjectId(recipe_id)})
+    flash("Recipe Successfully Deleted")
+    return redirect(url_for("get_recipes"))
