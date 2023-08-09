@@ -165,4 +165,16 @@ def get_cuisines():
     return render_template("cuisines.html", cuisines=cuisines)
 
 
+#add_cuisine function to allow user to add a cuisine to the database
+@app.route("/add_cuisine", methods=["GET", "POST"])
+def add_cuisine():
+    if request.method == "POST":
+        cuisine = {
+            "cuisine_name": request.form.get("cuisine_name")
+        }
+        mongo.db.cuisines.insert_one(cuisine)
+        flash("New Cuisine Added")
+        return redirect(url_for("get_cuisines"))
+
+    return render_template("add_cuisine.html")
 
