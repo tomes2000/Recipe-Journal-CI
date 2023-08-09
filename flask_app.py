@@ -20,6 +20,7 @@ app.secret_key = os.environ.get("SECRET_KEY")
 mongo = PyMongo(app)
 
 
+#Redirect user to recipes.html section
 @app.route("/")
 @app.route("/get_recipes")
 def get_recipes():
@@ -27,6 +28,7 @@ def get_recipes():
     return render_template("recipes.html", recipes=recipes)
 
 
+#Register function to add user to the databse
 @app.route("/register", methods=["GET", "POST"])
 def register():
     if request.method == "POST":
@@ -52,6 +54,7 @@ def register():
     return render_template("register.html")
 
 
+#Login function to check if the user is in the database
 @app.route("/login", methods=["GET", "POST"])
 def login():
     if request.method == "POST":
