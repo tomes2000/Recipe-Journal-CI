@@ -34,6 +34,24 @@
 				</ul>
 			</div>
 		</nav>
+
+         <!-- mobile sidenav -->
+		<ul class="sidenav" id="mobile-demo">
+            <li><h4 class="center-align light-green darken-1">Task Manager</h4></li>
+            <li><a href="{{ url_for('get_recipes') }}">Home</a></li>
+            {% if session['user'] %}
+                <li><a href="{{ url_for('profile', username = session['user']) }}">Profile</a></li>
+                <li><a href="{{ url_for('add_recipe') }}">Add a recipe</a></li>
+                {% if session.user|lower == "admin"|lower %}
+                    <li><a href="{{ url_for('get_cuisines') }}">Add a cuisine</a></li>
+                {% endif %}
+                <li><a href="{{ url_for('logout') }}">Log Out</a></li>
+            {% else %}
+                <li><a href="{{ url_for('login') }}">Log In</a></li>
+                <li><a href="{{ url_for('register') }}">Register</a></li>
+            {% endif %}
+		</ul>
+        
     </header>
 </body>
 </html>
