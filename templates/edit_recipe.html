@@ -22,3 +22,12 @@
 					<label for="cuisine_name">Recipe Cuisine</label>
 				</div>
 			</div>
+            <!-- task name -->
+            <div class="row">
+                <div class="input-field col s12">
+                    <i class="fas fa-pencil-alt prefix light-blue-text text-darken-4"></i>
+                    <input id="recipe_name" name="recipe_name" minlength="5" maxlength="50"
+                        value="{{ recipe.recipe_name }}" type="text" class="validate" required>
+                    <label for="recipe_name">Recipe Name</label>
+                </div>
+            </div>
