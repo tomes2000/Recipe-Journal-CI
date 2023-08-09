@@ -125,3 +125,25 @@ def add_recipe():
         return redirect(url_for("get_recipes"))
     cuisines = mongo.db.cuisines.find().sort("cuisine_name", 1)
     return render_template("add_recipe.html", cuisines=cuisines)
+
+
+#Edit recipe function to allow user to edit a recipe in the database
+@app.route("/edit_recipe/<recipe_id>", methods=["GET", "POST"])
+def edit_recipe(recipe_id):
+    if request.method == "POST":
+        is_vegetarian = "on" if request.form.get("is_vegetarian") else "off"
+        submit = {
+            "cuisine_name": request.form.get("cuisine_name"),
+            "recipe_name": request.form.get("recipe_name"),
+            "recipe_ingredients": request.form.get("recipe_ingredients"),
+            "is_vegetarian": is_vegetarian,
+            "recipe_serves": request.form.get("recipe_serves"),
+            "recipe_url": request.form.get("recipe_url"),
+            "created_by": session["user"]
+        }
+        mongo.db.recipes.replace_one({"_id": ObjectId(recipe_id)}, submit)
+        flash("Recipe Successfully Updated")
+
+    recipe = mongo.db.recipes.find_one({"_id": ObjectId(recipe_id)})
+    cuisines = mongo.db.cuisines.find().sort("cuisine_name", 1)
+    return render_template("edit_recipe.html", recipe=recipe, cuisines=cuisines)
