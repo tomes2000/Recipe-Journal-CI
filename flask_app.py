@@ -156,3 +156,13 @@ def delete_recipe(recipe_id):
     mongo.db.recipes.delete_one({"_id": ObjectId(recipe_id)})
     flash("Recipe Successfully Deleted")
     return redirect(url_for("get_recipes"))
+
+
+#get_cuisines function to allow user to view all cuisines in the database
+@app.route("/get_cuisines")
+def get_cuisines():
+    cuisines = list(mongo.db.cuisines.find().sort("cuisine_name", 1))
+    return render_template("cuisines.html", cuisines=cuisines)
+
+
+
