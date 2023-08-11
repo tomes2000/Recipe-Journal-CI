@@ -9,3 +9,16 @@ As an avid cook myself, the idea of my project "Recipe Journal" was to provide a
 #### Target Audience
 
 The target audience for Recipe Journal are avid cooks all around the world that love to share recipes with others and also discover new ones.
+
+#### First Time Visitor Goals
+
+1. I want to connect with like-minded individuals who resonate with interest of cooking and discovering new recipes and cuisines.
+2. I want to be able to navigate the site effectively.
+3. I want to register an account.
+4. I want to search for new recipes and discover new cuisines.
+
+#### Returning Visitor Goals
+
+1. I want to login into my account.
+2. Create, edit, delete and view my recipes.
+
