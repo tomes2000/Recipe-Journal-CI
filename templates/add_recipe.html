@@ -53,8 +53,16 @@
             <div class="row">
                 <div class="input-field col s12">
                     <i class="fas fa-solid fa-person prefix light-blue-text text-darken-4"></i>
-                    <input id="recipe_serves" name="recipe_serves" type="number" class="validate" min="1" max="1000" required>
+                    <input id="recipe_serves" name="recipe_serves" type="number" class="validate" min="1" max="200" required>
                     <label for="recipe_serves">Recipe Serves</label>
                 </div>
             </div>
-            <!-- Ingredients -->
+            <!-- Recipe cooking instructions -->
+            <div class="row">
+                <div class="input-field col s12">
+                    <i class="fas fa-solid fa-link prefix light-blue-text text-darken-4"></i>
+                    <textarea placeholder="https://www.bbc.co.uk/news"  id="recipe_url" name="recipe_url"
+                        maxlength="80" class="materialize-textarea validate" required></textarea>
+                    <label for="recipe_url">Recipe Cooking Instructions Link</label>
+                </div>
+            </div>
