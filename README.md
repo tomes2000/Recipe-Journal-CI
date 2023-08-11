@@ -26,3 +26,17 @@ The target audience for Recipe Journal are avid cooks all around the world that 
 1. I want to login as an admin.
 2. Create, edit, delete and view cuisines.
 3. Remove any offensive content.
+
+## Features
+
+The website is comprised of 12 pages which are extended from a base template.
+
+* Register page
+* Recipes page
+* Profile page
+* Login page
+* Edit Recipe page
+* Edit Cuisine page
+* Cuisine page
+* Add Recipe page
+* Add cuisine page
