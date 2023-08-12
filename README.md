@@ -46,11 +46,12 @@ The website is comprised of 9 pages which are extended from a base template.
 #### Colour Schemee
 
 * The colour scheme is based on creating a simple yet intuitive atmosphere for the user.
-* All colours were checked with WebAIM to check the accessibility of the colours and ensure the present a pass
+* All colours were checked with WebAIM to check the accessibility of the colours and ensure the present a pass.
+
 
 Below is the colour scheme used for the website
 
-Insert colour Palette 
+![Colour Scheme for Recipe Journal](documentation/colour%20pallete.png)
 
 #### Elements found on each page
 
