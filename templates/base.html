@@ -37,7 +37,7 @@
 
          <!-- mobile sidenav -->
 		<ul class="sidenav" id="mobile-demo">
-            <li><h4 class="center-align light-green darken-1">Task Manager</h4></li>
+            <li><h4 class="center-align light-green darken-1">Recipe Journal</h4></li>
             <li><a href="{{ url_for('get_recipes') }}">Home</a></li>
             {% if session['user'] %}
                 <li><a href="{{ url_for('profile', username = session['user']) }}">Profile</a></li>
