@@ -80,6 +80,10 @@ Recipe Journal utilises a NoSQL document-based database via MongoDB for storing 
 
 ![Database datastructure](documentation/database.png)
 
+### Userjourney
+
+![User Journey Structure](documentation/user_journey.png)
+
 ## Wireframes
 
 ## Testing
