@@ -1,3 +1,7 @@
+p {
+    font-family: "Fredoka One", sans-serif;
+}
+
 .text-shadow {
     text-shadow: 2px 2px 2px 2px rgba(0,0,0,0.5)
 }
@@ -34,7 +38,12 @@ body {
 }
 
 .footer-title {
-    font-family: "Fredoka One", cursive;
+    font-family: "Fredoka One", sans-serif;
+    color: #B4FFC8;
+}
+
+.footer-paragraph {
+    font-family: "Fredoka One", sans-serif;
     color: #B4FFC8;
 }
 
