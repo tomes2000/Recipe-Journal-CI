@@ -86,13 +86,13 @@ Recipe Journal utilises a NoSQL document-based database via MongoDB for storing 
 
 # Wireframes
 
-Home Page
+* Home Page
 [Get Recipe Page](documentation/recipe-journal.png)
-Login/Register Page
+* Login/Register Page
 [Login/Register](documentation/login-register.png)
-Add/Edit Recipe Page
+* Add/Edit Recipe Page
 [Add/EditRecipe](documentation/add_cuisine_journal.png)
-Add/Edit Cuisine Page
+* Add/Edit Cuisine Page
 [Add/EditCuisine](documentation/add_cuisine_journal.png)
 
 # Technologies Used
