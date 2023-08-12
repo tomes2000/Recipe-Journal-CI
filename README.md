@@ -43,7 +43,7 @@ The website is comprised of 9 pages which are extended from a base template.
 
 ### Existing Features
 
-#### Colour Schemee
+#### Colour Scheme
 
 * The colour scheme is based on creating a simple yet intuitive atmosphere for the user.
 * All colours were checked with WebAIM to check the accessibility of the colours and ensure the present a pass.
