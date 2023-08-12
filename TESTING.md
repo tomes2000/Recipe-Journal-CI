@@ -25,7 +25,7 @@ Comments made are only related to JS version. No errors found.
 
 I used the [pycodestyle](https://pypi.org/project/pycodestyle/) package within my IDE to ensure that my code meets PEP8 guidelines.
 
-Minor errors that were fixed related to spacing between code.
+Passed after fixing minor errors that were related to spacing between code.
 
 [flask_app.py](documentation/pythontest.png)
 
@@ -46,3 +46,25 @@ I have used the WAVE testing tool to try and ensure there are no accessibility i
 - [Edit Cuisines](documentation/edit_cuisine.png)
 - [Login](documentation/login.png)
 - [Register](documentation/register.png)
+
+## Manual Testing
+
+### Testing User Stories
+
+| Goals | How are they achieved? | Pass/Fail |
+| :--- | :--- | :--- |
+| `First Time Visitors` |
+|  |  |  |
+| I want to connect with like-minded individuals who are interested in cooking and discovering new recipes and cuisines. | The home page allows users to click on recipes uploaded by other users | Pass |
+| Register for an account. | A register link is displayed on the navbar if a user is not logged in. | Pass |
+| I want to search for new recipes and discover new cuisines. | Users are always able to search recipes on the home page regardless of their login status. | Pass |
+|`Returning Visitors`|
+|  |  |  |
+| Log in to my account | If a user is not logged into an account, a login link is provided on the navbar. | Pass |
+| Create, edit, delete and view my recipes. | Users are able to edit and delete recipes on the home page and add a recipe from the navbar link. | Pass |
+|`Admin User` |
+|  |  |  |
+| Log in as admin | If a user has the correct admin credentials then they can login in as admin | Pass |
+| Create, edit, delete and view cuisines. | Only the admin is able to create, edit and delete cuisines  | Pass |
+| Remove any offensive content in the recipes section.
+ | Admin is able to remove any offensive content within the homepage  | Pass |
