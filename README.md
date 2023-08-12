@@ -170,7 +170,7 @@ The following environment variables must be set within your Heroku Server for th
 - Within this file, declare the environment variables described above, in the following format, replacing the `<variable>` with the required variables:
 
 
-- ```python 
+- "```python"
 - import os
 
 - os.environ.setdefault("IP", "<variable>")
