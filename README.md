@@ -50,6 +50,15 @@ Insert colour Palette
 #### Elements found on each page
 
 * Nabar - The navbar is displayed on all pages of the website and allows users to navigate the website with ease without having to press the backbutton. The navbar is comprised of the site name and links to navigate the site. Depending on whether the user is logged in or not, the links will vary.
+(Display navbar pictures on two different instances)
 
 * Footer - A footer is displayed with the websites name to compliment the navbar.
 
+* Header - This allows the user to return back to the "Home" section where they can view all recipes submitted by various users.
+
+#### Accessibility
+
+I have been mindful during coding to ensure that the website if accessible and friendly. I have achieved this through:
+
+* Using semantic HTML.
+* Ensuring there is sufficient colour contrast.
