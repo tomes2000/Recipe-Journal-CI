@@ -29,7 +29,7 @@ The target audience for Recipe Journal are avid cooks all around the world that 
 
 ## Features
 
-The website is comprised of 12 pages which are extended from a base template.
+The website is comprised of 9 pages which are extended from a base template.
 
 * Register page
 * Recipes page
