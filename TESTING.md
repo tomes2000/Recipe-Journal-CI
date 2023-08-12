@@ -1,4 +1,4 @@
-## automated Testing
+## Automated Testing
 
 ### W3C Validator
 
@@ -19,9 +19,13 @@
 [jshint](https://jshint.com/) was used to validate the JavaScript.
  * [script.js](documentation/jshint.png)
 
+Comments made are only related to JS version. No errors found.
+
 ### Python Validator
 
 I used the [pycodestyle](https://pypi.org/project/pycodestyle/) package within my IDE to ensure that my code meets PEP8 guidelines.
+
+Minor errors that were fixed related to spacing between code.
 
 [flask_app.py](documentation/pythontest.png)
 
@@ -30,3 +34,15 @@ I used the [pycodestyle](https://pypi.org/project/pycodestyle/) package within m
 [WAVE](http://wave.webaim.org/) (Web Accessibility Evaluation Tool) allows developers to create content that is more accessible to users with disabilities. It does this by identifying accessibility and WGAC errors.
 
 I have used the WAVE testing tool to try and ensure there are no accessibility issues with my site.
+
+### Lighthouse - Desktop Results
+
+[Get Recipes](documentation/get_recipes.png)
+[Add Recipe](documentation/add_recipe.png)
+[Edit Recipe](documentation/edit_recipe.png)
+[Profile](documentation/get_recipes.png)
+[Get Cuisines](documentation/get_cuisines.png)
+[Add Cuisines](documentation/add_cuisine.png)
+[Edit Cuisines](documentation/edit_cuisine.png)
+[Login](documentation/login.png)
+[Register](documentation/register.png)
