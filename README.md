@@ -170,14 +170,14 @@ The following environment variables must be set within your Heroku Server for th
 - Within this file, declare the environment variables described above, in the following format, replacing the `<variable>` with the required variables:
 
 
-" ```python "
-import os
+- ```python 
+- import os
 
-os.environ.setdefault("IP", "<variable>")
-os.environ.setdefault("PORT", "<variable>")
-os.environ.setdefault("SECRET_KEY", "<variable>")
-os.environ.setdefault("MONGO_URI", "<variable>")
-os.environ.setdefault("MONGO_DBNAME", "<variable>")
+- os.environ.setdefault("IP", "<variable>")
+- os.environ.setdefault("PORT", "<variable>")
+- os.environ.setdefault("SECRET_KEY", "<variable>")
+- os.environ.setdefault("MONGO_URI", "<variable>")
+- os.environ.setdefault("MONGO_DBNAME", "<variable>")
 
 The project will automatically locate this file, and read the required environment variables as and when necessary. This file has not been included within the repo due to the security implications.
 
