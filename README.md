@@ -68,7 +68,7 @@ I have been mindful during coding to ensure that the website if accessible and f
 * Using semantic HTML.
 * Ensuring there is sufficient colour contrast.
 
-## Datasctructure
+## Datastructure
 
 ## Wireframes
 
