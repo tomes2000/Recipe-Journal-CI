@@ -118,6 +118,8 @@ This project uses JavaScript ES6.
 
 # Testing
 
+Refer to [TESTING.md](TESTING.md).
+
 # Deployment
 
 This project was deployed to Heroku via the following steps:
