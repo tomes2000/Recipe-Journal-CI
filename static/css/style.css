@@ -13,6 +13,7 @@
 .collapsible-header .col strong {
     margin: 5px;
     line-height: 42px;
+    color: #DCCCA3;
 }
 
 body {
@@ -27,13 +28,17 @@ body {
 
 /* Footer */
 .page-footer {
-    background-color: #eceff1;
-    border-top: 2px solid #acddd7;
-    color: #3e3d43;
+    background-color: #C98BB9;
+    border-top: 2px solid #DCCCA3;
+    color: #090446;
 }
 
 .footer-title {
     font-family: "Fredoka One", cursive;
-    color: #d71a2c;
+    color: #003B36;
 }
 
+/* Navbar */
+.nav-wrapper {
+    background-color: #C98BB9;
+}
