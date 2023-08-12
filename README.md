@@ -56,7 +56,9 @@ Below is the colour scheme used for the website
 #### Elements found on each page
 
 * Navbar - The navbar is displayed on all pages of the website and allows users to navigate the website with ease without having to press the backbutton. The navbar is comprised of the site name and links to navigate the site. Depending on whether the user is logged in or not, the links will vary.
-(Display navbar pictures on two different instances)
+
+Logged out:
+![Navbar logged out](documentation/colour%20pallete.png)
 
 * Footer - A footer is displayed with the websites name to compliment the navbar.
 
