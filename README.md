@@ -46,7 +46,7 @@ The website is comprised of 9 pages which are extended from a base template.
 #### Colour Scheme
 
 * The colour scheme is based on creating a simple yet intuitive atmosphere for the user.
-* All colours were checked with WebAIM to check the accessibility of the colours and ensure the present a pass.
+* All colours were checked with WebAIM to assess their accessibility and ensure they present a pass.
 ![Ensuring Colours are Accessibile for disabled users](documentation/accessibility.png)
 
 Below is the colour scheme used for the website
