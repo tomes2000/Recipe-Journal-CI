@@ -118,7 +118,7 @@ This project uses JavaScript ES6.
 
 # Testing
 
-Refer to [TESTING.md](TESTING.md).
+Refer to [TESTING.md](TESTING.md) file.
 
 # Deployment
 
