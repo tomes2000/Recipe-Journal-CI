@@ -40,3 +40,7 @@ The website is comprised of 12 pages which are extended from a base template.
 * Cuisine page
 * Add Recipe page
 * Add cuisine page
+
+#### Existing Features
+
+Common Features Across All Pages.
