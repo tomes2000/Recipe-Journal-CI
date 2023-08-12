@@ -66,5 +66,4 @@ I have used the WAVE testing tool to try and ensure there are no accessibility i
 |  |  |  |
 | Log in as admin | If a user has the correct admin credentials then they can login in as admin | Pass |
 | Create, edit, delete and view cuisines. | Only the admin is able to create, edit and delete cuisines  | Pass |
-| Remove any offensive content in the recipes section.
- | Admin is able to remove any offensive content within the homepage  | Pass |
+| Remove any offensive content in the recipes section. | Admin is able to remove any offensive content within the homepage  | Pass |
