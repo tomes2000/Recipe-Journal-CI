@@ -80,7 +80,7 @@ Recipe Journal utilises a NoSQL document-based database via MongoDB for storing 
 
 ![Database datastructure](documentation/database.png)
 
-### Userjourney
+### User Journey
 
 ![User Journey Structure](documentation/user_journey.png)
 
@@ -88,3 +88,27 @@ Recipe Journal utilises a NoSQL document-based database via MongoDB for storing 
 
 ## Testing
 
+## Technologies Used
+
+### Development
+
+* The project was written in [VSCode](https://code.visualstudio.com/)
+* The project was debugged using [Google Chrome](https://www.google.com/intl/en_uk/chrome/) [Dev Tools](https://developers.google.com/web/tools/chrome-devtools).
+* The project uses [GitHub](https://github.com/) for hosting source code and utilising git version control.
+
+### Design
+
+* The project utilised [favicon.io](https://favicon.io/favicon-converter/) to convert the Favicon to the appropriate format.
+
+### HTML/CSS
+
+HTML5 and CSS3 are used throughout this project.
+
+* This project uses[Materialize CSS].(https://materializecss.com/)
+
+### Python
+
+* [Flask](https://flask.palletsprojects.com/en/1.1.x/) – WSGI Web Application Microframework.
+* [Gunicorn](https://gunicorn.org/)
+* [Jinja](https://jinja.palletsprojects.com/en/2.11.x/) for templating HTML via Python.
+* For a more detailed list of the packages' dependencies please see the requirements.txt.
