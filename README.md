@@ -71,6 +71,10 @@ I have been mindful during coding to ensure that the website if accessible and f
 
 ## Datastructure
 
+Recipe Journal utilises a NoSQL document-based database via MongoDB for storing recipes, user credentials and cuisines. The format and structure of these collections are illustrated below:
+
+![Database datastructure](documentation/database.png)
+
 ## Wireframes
 
 ## Testing
