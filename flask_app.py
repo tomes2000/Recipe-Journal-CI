@@ -88,7 +88,6 @@ def login():
             # username doesn't exist
             flash("Incorrect Username and/or Password")
             return redirect(url_for("login"))
-    
     return render_template("login.html")
 
 
@@ -154,7 +153,8 @@ def edit_recipe(recipe_id):
 
     recipe = mongo.db.recipes.find_one({"_id": ObjectId(recipe_id)})
     cuisines = mongo.db.cuisines.find().sort("cuisine_name", 1)
-    return render_template("edit_recipe.html", recipe=recipe, cuisines=cuisines)
+    return render_template("edit_recipe.html",
+                            recipe=recipe, cuisines=cuisines)
 
 
 #Delete recipe function to allow user to delete a recipe from the database
@@ -196,10 +196,10 @@ def edit_cuisine(cuisine_id):
         }
         mongo.db.cuisines.replace_one({"_id": ObjectId(cuisine_id)}, submit)
         flash("Cuisine Successfully Updated")
-        return redirect(url_for("get_cuisines"))
-    
+        return redirect(url_for("get_cuisines"))    
     cuisine = mongo.db.cuisines.find_one({"_id": ObjectId(cuisine_id)})
     return render_template("edit_cuisine.html", cuisine=cuisine)
+
 
 #delete_cuisine function to allow user to delete cuisine in the database
 @app.route("/delete_cuisine/<cuisine_id>")
@@ -213,4 +213,3 @@ if __name__ == "__main__":
     app.run(host=os.environ.get("IP"),
             port=int(os.environ.get("PORT")),
             debug=False)
-
