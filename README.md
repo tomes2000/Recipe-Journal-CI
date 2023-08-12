@@ -43,6 +43,11 @@ The website is comprised of 12 pages which are extended from a base template.
 
 ### Existing Features
 
+#### Colour Schemee
+
+* The colour scheme is based on creating a simple yet intuitive atmosphere for the user.
+* All colours were checked with WebAIM to check the accessibility of the colours and ensure the present a pass
+
 Below is the colour scheme used for the website
 
 Insert colour Palette 
@@ -62,3 +67,4 @@ I have been mindful during coding to ensure that the website if accessible and f
 
 * Using semantic HTML.
 * Ensuring there is sufficient colour contrast.
+
