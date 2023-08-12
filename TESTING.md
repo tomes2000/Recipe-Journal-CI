@@ -37,12 +37,12 @@ I have used the WAVE testing tool to try and ensure there are no accessibility i
 
 ### Lighthouse - Desktop Results
 
-[Get Recipes](documentation/get_recipes.png)
-[Add Recipe](documentation/add_recipe.png)
-[Edit Recipe](documentation/edit_recipe.png)
-[Profile](documentation/get_recipes.png)
-[Get Cuisines](documentation/get_cuisines.png)
-[Add Cuisines](documentation/add_cuisine.png)
-[Edit Cuisines](documentation/edit_cuisine.png)
-[Login](documentation/login.png)
-[Register](documentation/register.png)
+- [Get Recipes](documentation/get_recipes.png)
+- [Add Recipe](documentation/add_recipe.png)
+- [Edit Recipe](documentation/edit_recipe.png)
+- [Profile](documentation/get_recipes.png)
+- [Get Cuisines](documentation/get_cuisines.png)
+- [Add Cuisines](documentation/add_cuisine.png)
+- [Edit Cuisines](documentation/edit_cuisine.png)
+- [Login](documentation/login.png)
+- [Register](documentation/register.png)
