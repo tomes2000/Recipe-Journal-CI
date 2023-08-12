@@ -1,3 +1,8 @@
+
+[AmIResponsive](documentation/am-i-responsive.png)
+
+Link to site: [Recipe-Journal](https://recipe-journal-aavash-7fc97436a7e3.herokuapp.com/)
+
 # User Experience
 
 ### Project Goals
