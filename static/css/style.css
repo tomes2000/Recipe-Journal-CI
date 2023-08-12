@@ -28,17 +28,17 @@ body {
 
 /* Footer */
 .page-footer {
-    background-color: #C98BB9;
+    background-color: #5A6165;
     border-top: 2px solid #DCCCA3;
     color: #090446;
 }
 
 .footer-title {
     font-family: "Fredoka One", cursive;
-    color: #003B36;
+    color: #B4FFC8;
 }
 
 /* Navbar Styling */
 .nav-wrapper {
-    background-color: #C98BB9;
+    background-color: #5A6165;
 }
