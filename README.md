@@ -54,7 +54,7 @@ Insert colour Palette
 
 #### Elements found on each page
 
-* Nabar - The navbar is displayed on all pages of the website and allows users to navigate the website with ease without having to press the backbutton. The navbar is comprised of the site name and links to navigate the site. Depending on whether the user is logged in or not, the links will vary.
+* Navbar - The navbar is displayed on all pages of the website and allows users to navigate the website with ease without having to press the backbutton. The navbar is comprised of the site name and links to navigate the site. Depending on whether the user is logged in or not, the links will vary.
 (Display navbar pictures on two different instances)
 
 * Footer - A footer is displayed with the websites name to compliment the navbar.
