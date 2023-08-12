@@ -86,8 +86,6 @@ Recipe Journal utilises a NoSQL document-based database via MongoDB for storing 
 
 ## Wireframes
 
-## Testing
-
 ## Technologies Used
 
 ### Development
@@ -112,3 +110,13 @@ HTML5 and CSS3 are used throughout this project.
 * [Gunicorn](https://gunicorn.org/)
 * [Jinja](https://jinja.palletsprojects.com/en/2.11.x/) for templating HTML via Python.
 * For a more detailed list of the packages' dependencies please see the requirements.txt.
+
+This project uses JavaScript ES6.
+
+* [Materialize CSS](https://github.com/materializecss/materialize) – In-built JavaScript package for interactive and responsive web-design.
+* [JQuery](https://jquery.com/)
+
+## Testing
+
+## Deployment
+
