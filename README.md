@@ -25,7 +25,7 @@ The target audience for Recipe Journal are avid cooks all around the world that 
 #### Admin Goals
 1. I want to login as an admin.
 2. Create, edit, delete and view cuisines.
-3. Remove any offensive content.
+3. Remove any offensive content in the recipes section.
 
 ## Features
 
@@ -67,4 +67,10 @@ I have been mindful during coding to ensure that the website if accessible and f
 
 * Using semantic HTML.
 * Ensuring there is sufficient colour contrast.
+
+## Datasctructure
+
+## Wireframes
+
+## Testing
 
