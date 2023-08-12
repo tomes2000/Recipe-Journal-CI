@@ -227,3 +227,7 @@ The project will automatically locate this file, and read the required environme
 4. Type `pip install requirements.txt` to install all the required packages.
 5. Type `python app.py` in the terminal, whilst in the project’s root directory.
 6. You will now be hosting the repository from your IDE.
+
+# Disclaimer
+
+This website is for educational purposes only.
